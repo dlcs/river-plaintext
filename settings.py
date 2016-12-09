@@ -1,0 +1,4 @@
+import os
+STARSKY = os.environ.get('STARSKY_TEXT_SERVICE_URI')
+CHUNK_SIZE = 10
+THREAD_COUNT = 5
